@@ -1,0 +1,33 @@
+{
+    "name": "gentleman",
+    "version": "0.1.0",
+    "description": "A sandbox only fit for a gentleman!",
+    "author": "coopersemantics",
+    "homepage": "https://github.com/coopersemantics/gentleman",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/coopersemantics/gentleman"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/coopersemantics/gentleman/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "main": "./lib/gentleman.js",
+    "dependencies": {
+        "q": "~1.0.1"
+    },
+    "devDependencies": {
+        "gulp": "~3.8.6",
+        "gulp-jshint": "~1.7.1",
+        "jshint-stylish": "~0.4.0",
+        "gulp-mocha": "~0.5.1",
+        "mocha": "~1.21.0",
+        "chai": "~1.9.1",
+        "sinon": "~1.10.3"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    }
+}
